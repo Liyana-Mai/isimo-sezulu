@@ -11,12 +11,13 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>My Weather App</title>
 </head>
 <body>
     <div class="weather-app">
       <header>
-        <form id="search-form">
+        <form id="search-form" class="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
@@ -39,7 +40,7 @@
           </div>
           <div class="current-temperature-container">
             <div class="current-temperature-icon">☀️</div>
-            <div class="current-temperature-value">24</div>
+            <div class="current-temperature-value" id="temperature">24</div>
             <div class="current-temperature-unit">°C</div>
           </div>
         </div>
@@ -53,10 +54,11 @@
           <a href="https://weather-service-app.netlify.app/" target="_blank">hosted on Netlify</a>
         </p>
       </footer>
-
     </div>
+
+    <script src="script.js"></script>
   </body>
-  <script src="src/index.js"></script>
+</html>
 
 
 
