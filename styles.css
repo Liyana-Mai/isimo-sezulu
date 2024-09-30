@@ -75,16 +75,18 @@ main {
 .current-temperature-value {
     font-size: 88px;
     font-weight: bold;
+    line-height: 88px;
     margin-left: 10px;
 }
 
 .current-temperature-icon {
-    font-size: 44px;
-    margin-top: 22px;
+    width: 88px;
+    height: 88px;
+    margin-top: 12px;
 }
 
 .current-temperature-unit {
-    margin-top: 14px;
+    margin-top: 6px;
     font-size: 28px;
 }
 
