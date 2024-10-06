@@ -70,6 +70,7 @@ main {
 
 .current-temperature-container {
     display: flex;
+
 }
 
 .current-temperature-value {
@@ -90,6 +91,40 @@ main {
     font-size: 28px;
 }
 
+.weather-forecast {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+
+.weather-forecast-date {
+    text-align: center;
+    font-size: 16px;
+    color:  rgba(39, 33, 66, 0.4);
+    line-height: 20px;
+}
+
+.weather-forecast-icon {
+    font-size: 48px;
+    text-align: center;
+}
+
+.weather-forecast-temperatures {
+    text-align: center;
+    color: #f65282;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.weather-forecast-temperature {
+    padding: 0 10px;
+}
+    
 
 footer {
     border-top: 1px solid #F9F7FE;
